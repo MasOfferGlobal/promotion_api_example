@@ -1,8 +1,5 @@
 <?php
-/**
- * Các bạn nhớ thay PUB_ID và TOKEN phù hợp nhé.
- * Liên hệ với hỗ trợ để được nhận token phù hợp.
- */
+
 $PUB_ID = 'masofferdemo';
 $SHOP_ID = 'adayroi';
 
@@ -50,7 +47,6 @@ if ($err) {
     <!-- CSS Files -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="assets/css/material-kit.css" rel="stylesheet"/>
-    <link href="assets/css/demo.css" rel="stylesheet"/>
     <style>
         #promotion_list img {
             max-width: 250px;
@@ -100,7 +96,7 @@ if ($err) {
                                     <div class="row">
                                         <div class="col-sm-8 text-right">
                                             <div class="form-group">
-                                                <button class="btn btn-info">Tạo link</button>
+                                                <button class="btn btn-info">Lấy danh sách</button>
                                             </div>
                                         </div>
                                     </div>
