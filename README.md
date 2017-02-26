@@ -1,7 +1,6 @@
 # MasOffer Promotion API
 
-    GET https://api.masoffer.com/promotions/?offer_id={offer_id}
-    &keyword={keyword}&coupon={coupon}&id={id}&take={take}
+    GET https://api.masoffer.com/promotions/?offer_id={offer_id}&keyword={keyword}&coupon={coupon}&id={id}&take={take}
 
 ## Mô tả
 API cho phép lấy promotion của MasOffer
