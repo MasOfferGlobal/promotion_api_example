@@ -148,6 +148,7 @@
         if (window.table != undefined) {
             window.table.fnDestroy();
             $('#promotion_list th').css('width', 'auto');
+            $('#promotion_list tbody').html('');
         }
         var PUB_ID = $('input[name="publisher_id"]').val();
         var SHOP_ID = $('select[name="offer_id"]').val();
